@@ -6,7 +6,7 @@
   "author": "Kuvam Bhardwaj <kuvamyash@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/main.js"
+    "start": "node build/main.js"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
