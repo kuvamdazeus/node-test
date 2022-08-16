@@ -1,7 +1,7 @@
 {
   "name": "node-test",
   "version": "1.0.0",
-  "main": "dist/main.js",
+  "main": "build/main.js",
   "repository": "https://github.com/kuvamdazeus/node-test",
   "author": "Kuvam Bhardwaj <kuvamyash@gmail.com>",
   "license": "MIT",
