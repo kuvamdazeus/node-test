@@ -1,3 +1,6 @@
+import { config } from 'dotenv'
+config()
+
 import express from 'express'
 import cors from 'cors'
 
@@ -6,4 +9,4 @@ app.use(cors({ origin: '*' }))
 
 app.get('/', (_, res) => res.status(200).json({ message: 'OOLALA' }))
 
-app.listen(3001, () => console.log('Server started'))
+app.listen(process.env.PORT || 3001, () => console.log('Server started'))
